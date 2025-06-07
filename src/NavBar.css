@@ -1,0 +1,48 @@
+.NavBar {
+  background-color: #003366;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavBar a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.NavBar a:hover {
+  color: #ffd700;
+}
+
+.nav-brand {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-user {
+  margin-right: 1rem;
+  font-style: italic;
+}
+
+.nav-logout {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav-logout:hover {
+  background-color: #ff6666;
+  color: white;
+  border-color: #ff6666;
+}
